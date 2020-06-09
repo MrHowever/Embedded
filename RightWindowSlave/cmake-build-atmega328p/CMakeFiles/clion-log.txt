@@ -1,0 +1,4 @@
+/home/mrhowever/Programs/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=ATmega328P -G "CodeBlocks - Unix Makefiles" /home/mrhowever/Programming/Projects/RightWindowSlave
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mrhowever/Programming/Projects/RightWindowSlave/cmake-build-atmega328p

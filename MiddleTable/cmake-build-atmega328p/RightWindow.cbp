@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RightWindow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/src"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/Uart2"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/SoilHumiditySensor"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/ReedContact"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/RainDetector"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/ADC"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/variants/standard"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/I2C"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/LED"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/UART"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/home/mrhowever/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/home/mrhowever/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/home/mrhowever/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/include"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/src"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/Uart2"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/SoilHumiditySensor"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/ReedContact"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/RainDetector"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/ADC"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/variants/standard"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/I2C"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/LED"/>
+					<Add directory="/home/mrhowever/Programming/Projects/MiddleTable/lib/UART"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/Optiboot_flasher/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src"/>
+					<Add directory="/home/mrhowever/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/home/mrhowever/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/home/mrhowever/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/home/mrhowever/.platformio/packages/tool-unity"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Production">
+				<Option working_dir="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 Production"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mrhowever/Programming/Projects/MiddleTable/cmake-build-atmega328p/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/ADC/adc.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/ADC/adc.hh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/I2C/i2c_master.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/I2C/i2c_master.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/LED/led.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/LED/led.hh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/RainDetector/RainDetector.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/RainDetector/RainDetector.hh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/UART/Uart.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/UART/Uart.hh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/Uart2/uart.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/Uart2/uart.h">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/VibrationDetector/VibrationDetector.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/lib/VibrationDetector/VibrationDetector.hh">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/mrhowever/Programming/Projects/MiddleTable/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

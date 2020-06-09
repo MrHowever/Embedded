@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RightWindow.dir/src/main.cpp.o  -o RightWindow 

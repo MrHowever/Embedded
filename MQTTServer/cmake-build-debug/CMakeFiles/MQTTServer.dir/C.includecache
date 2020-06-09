@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mrhowever/Programming/Projects/MQTTServer/main.c
+stdio.h
+-
+mosquitto.h
+-
+stdlib.h
+-
+string.h
+-
+

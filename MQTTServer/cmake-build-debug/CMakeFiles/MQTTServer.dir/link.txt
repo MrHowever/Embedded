@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/MQTTServer.dir/main.c.o  -o MQTTServer -lmosquitto 

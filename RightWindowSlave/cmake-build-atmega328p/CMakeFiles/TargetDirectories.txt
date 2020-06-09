@@ -1,0 +1,5 @@
+/home/mrhowever/Programming/Projects/RightWindowSlave/cmake-build-atmega328p/CMakeFiles/edit_cache.dir
+/home/mrhowever/Programming/Projects/RightWindowSlave/cmake-build-atmega328p/CMakeFiles/Z_DUMMY_TARGET.dir
+/home/mrhowever/Programming/Projects/RightWindowSlave/cmake-build-atmega328p/CMakeFiles/Production.dir
+/home/mrhowever/Programming/Projects/RightWindowSlave/cmake-build-atmega328p/CMakeFiles/rebuild_cache.dir
+/home/mrhowever/Programming/Projects/RightWindowSlave/cmake-build-atmega328p/CMakeFiles/Debug.dir
