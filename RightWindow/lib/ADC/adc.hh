@@ -5,7 +5,7 @@
 #ifndef RIGHTWINDOW_ADC_HH
 #define RIGHTWINDOW_ADC_HH
 
-#define V_REF 5.0
+#define V_REF 3.3
 #define ADC_RANGE 1024
 
 class Adc
